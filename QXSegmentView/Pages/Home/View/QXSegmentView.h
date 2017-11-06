@@ -10,4 +10,12 @@
 
 @interface QXSegmentView : UIView
 
++ (QXSegmentView *)loadFromXib;
+
+- (RACReplaySubject *)signalClick;
+
+
+
+
+
 @end

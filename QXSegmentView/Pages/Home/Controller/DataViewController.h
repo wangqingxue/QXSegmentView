@@ -10,4 +10,6 @@
 
 @interface DataViewController : UIViewController
 
+@property (nonatomic, strong) NSString *iamgeString;
+
 @end

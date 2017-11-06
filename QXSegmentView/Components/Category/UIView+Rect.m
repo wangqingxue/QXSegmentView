@@ -10,4 +10,52 @@
 
 @implementation UIView (Rect)
 
+- (CGFloat)sizeW{
+    return self.frame.size.width;
+}
+
+- (CGFloat)sizeH{
+    return self.frame.size.height;
+}
+
+- (CGFloat)originX{
+    return self.frame.origin.x;
+}
+
+- (CGFloat)originY{
+    return self.frame.origin.y;
+}
+
+- (CGFloat)centerX{
+    return self.center.x;
+}
+
+- (CGFloat)centerY{
+    return self.center.y;
+}
+
+- (void)setSizeH:(CGFloat)sizeH{
+    
+}
+
+- (void)setSizeW:(CGFloat)sizeW{
+    
+}
+
+- (void)setOriginX:(CGFloat)originX{
+    
+}
+
+- (void)setOriginY:(CGFloat)originY{
+    
+}
+
+- (void)setCenterX:(CGFloat)centerX{
+    
+}
+
+- (void)setCenterY:(CGFloat)centerY{
+    
+}
+
 @end

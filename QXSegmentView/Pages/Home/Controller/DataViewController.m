@@ -10,13 +10,28 @@
 
 @interface DataViewController ()
 
+@property (strong, nonatomic) UIImageView *imageView;
+
 @end
 
 @implementation DataViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initUI];
     // Do any additional setup after loading the view.
+}
+
+- (void)initUI{
+    [self.view addSubview:self.imageView];
+    self.imageView.image = [UIImage imageNamed:self.iamgeString];
+}
+
+- (UIImageView *)imageView{
+    if (!_imageView){
+        _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.sizeW, self.view.sizeH)];
+    }
+    return _imageView;
 }
 
 - (void)didReceiveMemoryWarning {

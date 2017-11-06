@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6E1795D1FB003B400A84312 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E1795C1FB003B400A84312 /* AppDelegate.m */; };
-		C6E179601FB003B400A84312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E1795F1FB003B400A84312 /* ViewController.m */; };
-		C6E179631FB003B500A84312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E179611FB003B500A84312 /* Main.storyboard */; };
-		C6E179651FB003B500A84312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E179641FB003B500A84312 /* Assets.xcassets */; };
-		C6E179681FB003B500A84312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E179661FB003B500A84312 /* LaunchScreen.storyboard */; };
-		C6E1796B1FB003B500A84312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E1796A1FB003B500A84312 /* main.m */; };
+		91F629191C9E4FB6F4FA0819 /* libPods-QXSegmentView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09768926FAD27414023C5BF1 /* libPods-QXSegmentView.a */; };
+		C69D99A31FB03421009A2FA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C63403DE1FB0329F00AC348D /* AppDelegate.m */; };
+		C69D99A41FB03421009A2FA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C63403DF1FB0329F00AC348D /* main.m */; };
+		C69D99A51FB03421009A2FA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C63403E51FB0329F00AC348D /* ViewController.m */; };
+		C69D99A61FB03421009A2FA1 /* QXSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63403E81FB0329F00AC348D /* QXSegmentView.m */; };
+		C69D99E51FB03495009A2FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63403EB1FB032A000AC348D /* LaunchScreen.storyboard */; };
+		C69D99E61FB03495009A2FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63403EC1FB032A000AC348D /* Main.storyboard */; };
+		C69D99E71FB03495009A2FA1 /* QXSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63403E91FB0329F00AC348D /* QXSegmentView.xib */; };
+		C69D99EB1FB037AE009A2FA1 /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = C69D99EA1FB037AE009A2FA1 /* UIView+Rect.m */; };
+		C69D99FA1FB057D8009A2FA1 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69D99F91FB057D8009A2FA1 /* DataViewController.m */; };
 		C6E179751FB003B500A84312 /* QXSegmentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E179741FB003B500A84312 /* QXSegmentViewTests.m */; };
 		C6E179801FB003B500A84312 /* QXSegmentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E1797F1FB003B500A84312 /* QXSegmentViewUITests.m */; };
+		C6E179A21FB006A500A84312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E179941FB006A400A84312 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +40,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09768926FAD27414023C5BF1 /* libPods-QXSegmentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QXSegmentView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E8D11B97B7BDB386AFD0B0 /* Pods-QXSegmentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXSegmentView.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXSegmentView/Pods-QXSegmentView.release.xcconfig"; sourceTree = "<group>"; };
+		A8765472C29309A7A91390AE /* Pods-QXSegmentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXSegmentView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXSegmentView/Pods-QXSegmentView.debug.xcconfig"; sourceTree = "<group>"; };
+		C63403DD1FB0329F00AC348D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C63403DE1FB0329F00AC348D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C63403DF1FB0329F00AC348D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C63403E01FB0329F00AC348D /* QXSegmentViewPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXSegmentViewPrefixHeader.pch; sourceTree = "<group>"; };
+		C63403E41FB0329F00AC348D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C63403E51FB0329F00AC348D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C63403E71FB0329F00AC348D /* QXSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXSegmentView.h; sourceTree = "<group>"; };
+		C63403E81FB0329F00AC348D /* QXSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXSegmentView.m; sourceTree = "<group>"; };
+		C63403E91FB0329F00AC348D /* QXSegmentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QXSegmentView.xib; sourceTree = "<group>"; };
+		C63403EB1FB032A000AC348D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63403EC1FB032A000AC348D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C69D99E91FB037AE009A2FA1 /* UIView+Rect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Rect.h"; sourceTree = "<group>"; };
+		C69D99EA1FB037AE009A2FA1 /* UIView+Rect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rect.m"; sourceTree = "<group>"; };
+		C69D99F81FB057D8009A2FA1 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		C69D99F91FB057D8009A2FA1 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
 		C6E179581FB003B400A84312 /* QXSegmentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXSegmentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6E1795B1FB003B400A84312 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C6E1795C1FB003B400A84312 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6E1795E1FB003B400A84312 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6E1795F1FB003B400A84312 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C6E179621FB003B500A84312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C6E179641FB003B500A84312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C6E179671FB003B500A84312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C6E179691FB003B500A84312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6E1796A1FB003B500A84312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6E179701FB003B500A84312 /* QXSegmentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QXSegmentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E179741FB003B500A84312 /* QXSegmentViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXSegmentViewTests.m; sourceTree = "<group>"; };
 		C6E179761FB003B500A84312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6E1797B1FB003B500A84312 /* QXSegmentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QXSegmentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E1797F1FB003B500A84312 /* QXSegmentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXSegmentViewUITests.m; sourceTree = "<group>"; };
 		C6E179811FB003B500A84312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E179941FB006A400A84312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6E1799C1FB006A400A84312 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F629191C9E4FB6F4FA0819 /* libPods-QXSegmentView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +95,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222E75BF7FCC48F272CA3F98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8765472C29309A7A91390AE /* Pods-QXSegmentView.debug.xcconfig */,
+				87E8D11B97B7BDB386AFD0B0 /* Pods-QXSegmentView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8549CB7C154CA3ED4155CDA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09768926FAD27414023C5BF1 /* libPods-QXSegmentView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63403DB1FB0329F00AC348D /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				C63403DC1FB0329F00AC348D /* Main */,
+				C63403E01FB0329F00AC348D /* QXSegmentViewPrefixHeader.pch */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		C63403DC1FB0329F00AC348D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C63403DD1FB0329F00AC348D /* AppDelegate.h */,
+				C63403DE1FB0329F00AC348D /* AppDelegate.m */,
+				C63403DF1FB0329F00AC348D /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C63403E11FB0329F00AC348D /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C63403E21FB0329F00AC348D /* Home */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		C63403E21FB0329F00AC348D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C63403E31FB0329F00AC348D /* Controller */,
+				C63403E61FB0329F00AC348D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C63403E31FB0329F00AC348D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C63403E41FB0329F00AC348D /* ViewController.h */,
+				C63403E51FB0329F00AC348D /* ViewController.m */,
+				C69D99F81FB057D8009A2FA1 /* DataViewController.h */,
+				C69D99F91FB057D8009A2FA1 /* DataViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C63403E61FB0329F00AC348D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C63403E71FB0329F00AC348D /* QXSegmentView.h */,
+				C63403E81FB0329F00AC348D /* QXSegmentView.m */,
+				C63403E91FB0329F00AC348D /* QXSegmentView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C63403EA1FB032A000AC348D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C69D99E81FB0372C009A2FA1 /* Category */,
+				C63403EB1FB032A000AC348D /* LaunchScreen.storyboard */,
+				C63403EC1FB032A000AC348D /* Main.storyboard */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C69D99E81FB0372C009A2FA1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C69D99E91FB037AE009A2FA1 /* UIView+Rect.h */,
+				C69D99EA1FB037AE009A2FA1 /* UIView+Rect.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		C6E1794F1FB003B400A84312 = {
 			isa = PBXGroup;
 			children = (
 				C6E1795A1FB003B400A84312 /* QXSegmentView */,
+				C6E1799C1FB006A400A84312 /* Info.plist */,
+				C6E179941FB006A400A84312 /* Assets.xcassets */,
 				C6E179731FB003B500A84312 /* QXSegmentViewTests */,
 				C6E1797E1FB003B500A84312 /* QXSegmentViewUITests */,
 				C6E179591FB003B400A84312 /* Products */,
+				222E75BF7FCC48F272CA3F98 /* Pods */,
+				8549CB7C154CA3ED4155CDA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +215,9 @@
 		C6E1795A1FB003B400A84312 /* QXSegmentView */ = {
 			isa = PBXGroup;
 			children = (
-				C6E1795B1FB003B400A84312 /* AppDelegate.h */,
-				C6E1795C1FB003B400A84312 /* AppDelegate.m */,
-				C6E1795E1FB003B400A84312 /* ViewController.h */,
-				C6E1795F1FB003B400A84312 /* ViewController.m */,
-				C6E179611FB003B500A84312 /* Main.storyboard */,
-				C6E179641FB003B500A84312 /* Assets.xcassets */,
-				C6E179661FB003B500A84312 /* LaunchScreen.storyboard */,
-				C6E179691FB003B500A84312 /* Info.plist */,
-				C6E1796A1FB003B500A84312 /* main.m */,
+				C63403DB1FB0329F00AC348D /* Architecture */,
+				C63403EA1FB032A000AC348D /* Components */,
+				C63403E11FB0329F00AC348D /* Pages */,
 			);
 			path = QXSegmentView;
 			sourceTree = "<group>";
@@ -139,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6E179841FB003B500A84312 /* Build configuration list for PBXNativeTarget "QXSegmentView" */;
 			buildPhases = (
+				12B83BCD8788BA1BBCC689A3 /* [CP] Check Pods Manifest.lock */,
 				C6E179541FB003B400A84312 /* Sources */,
 				C6E179551FB003B400A84312 /* Frameworks */,
 				C6E179561FB003B400A84312 /* Resources */,
+				A8D9FEC171B486D5D4158B66 /* [CP] Embed Pods Frameworks */,
+				6E9CFE5576B742D989978B20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +310,7 @@
 				TargetAttributes = {
 					C6E179571FB003B400A84312 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C6E1796F1FB003B500A84312 = {
 						CreatedOnToolsVersion = 9.1;
@@ -238,9 +349,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E179681FB003B500A84312 /* LaunchScreen.storyboard in Resources */,
-				C6E179651FB003B500A84312 /* Assets.xcassets in Resources */,
-				C6E179631FB003B500A84312 /* Main.storyboard in Resources */,
+				C69D99E51FB03495009A2FA1 /* LaunchScreen.storyboard in Resources */,
+				C69D99E61FB03495009A2FA1 /* Main.storyboard in Resources */,
+				C69D99E71FB03495009A2FA1 /* QXSegmentView.xib in Resources */,
+				C6E179A21FB006A500A84312 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +372,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12B83BCD8788BA1BBCC689A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9CFE5576B742D989978B20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXSegmentView/Pods-QXSegmentView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D9FEC171B486D5D4158B66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXSegmentView/Pods-QXSegmentView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6E179541FB003B400A84312 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E179601FB003B400A84312 /* ViewController.m in Sources */,
-				C6E1796B1FB003B500A84312 /* main.m in Sources */,
-				C6E1795D1FB003B400A84312 /* AppDelegate.m in Sources */,
+				C69D99A31FB03421009A2FA1 /* AppDelegate.m in Sources */,
+				C69D99A41FB03421009A2FA1 /* main.m in Sources */,
+				C69D99EB1FB037AE009A2FA1 /* UIView+Rect.m in Sources */,
+				C69D99A51FB03421009A2FA1 /* ViewController.m in Sources */,
+				C69D99FA1FB057D8009A2FA1 /* DataViewController.m in Sources */,
+				C69D99A61FB03421009A2FA1 /* QXSegmentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +464,6 @@
 			targetProxy = C6E1797C1FB003B500A84312 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C6E179611FB003B500A84312 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6E179621FB003B500A84312 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C6E179661FB003B500A84312 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6E179671FB003B500A84312 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C6E179821FB003B500A84312 /* Debug */ = {
@@ -428,26 +572,38 @@
 		};
 		C6E179851FB003B500A84312 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8765472C29309A7A91390AE /* Pods-QXSegmentView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QXSegmentView/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = QXSegmentView/Architecture/QXSegmentViewPrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clud.go355.www.WindCar.QXSegmentView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C6E179861FB003B500A84312 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E8D11B97B7BDB386AFD0B0 /* Pods-QXSegmentView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QXSegmentView/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = QXSegmentView/Architecture/QXSegmentViewPrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clud.go355.www.WindCar.QXSegmentView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

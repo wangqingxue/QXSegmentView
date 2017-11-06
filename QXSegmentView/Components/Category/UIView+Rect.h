@@ -10,4 +10,16 @@
 
 @interface UIView (Rect)
 
+@property (nonatomic) CGFloat sizeW;
+
+@property (nonatomic) CGFloat sizeH;
+
+@property (nonatomic) CGFloat originX;
+
+@property (nonatomic) CGFloat originY;
+
+@property (nonatomic) CGFloat centerX;
+
+@property (nonatomic) CGFloat centerY;
+
 @end
