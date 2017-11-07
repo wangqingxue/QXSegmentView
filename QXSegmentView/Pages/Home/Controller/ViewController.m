@@ -34,7 +34,7 @@
     for (int i = 0; i < 3; i++){
         DataViewController *viewController = [[DataViewController alloc]init];
         viewController.iamgeString = _arrayImageName[i];
-        [self addChildViewController:viewController];
+//        [self addChildViewController:viewController];
         [self.arrayController addObject:viewController];
     }
 }
